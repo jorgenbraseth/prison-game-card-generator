@@ -109,7 +109,7 @@ If you don't want an inmate as part of your crew, you may choose to beat him ins
 Beating inmates is the main way of earning a reputation, along with popularity with the various factions of the prison.
  
 To beat an inmate (called "the target") you do the following:
-- Play an inmate from your hand by paying _half his buy cost rounded down_ in ciggs.
+- Play an inmate from your hand by paying an amount of ciggs equal to his _rank_.
 - You and other players may play cards to affect the outcome of the fight.
 - Once all players are done playing cards, if your inmate's power is _greater_ than the target's power, the target is beaten. 
   
@@ -142,7 +142,9 @@ To frame an inmate, take an inmate card from your hand and put it in the _beaten
 
 ----
 
-# Factions
+#Ideer
+
+## Factions
 Faction power: +1 når faction er vinner i en kamp. -1 når faction er taper.
 Faction popularity: Pluss når man vinner en kamp som faction. Minus når man banker en av factiono.
 
@@ -152,6 +154,8 @@ Faction power gir awards til de som har en pop-rank, eks:
     - Inmates of given faction have +X power where X is your popularity
     - Hver faction har egen Max-power ability ?
      
- 
+## Leaders
+Egenskap hos inmates.
+"Leader 3" = Kan legge til 3 andre inmates som power i kamp.
 
 

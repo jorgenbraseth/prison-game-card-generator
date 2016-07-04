@@ -138,9 +138,6 @@ section.rules {
     /*background: rgba(0,250,0,0.1);*/
 }
 
-
-
-
 /* Factions */
 .UNALIGNED  .faction_icon {
     background-image: url(../img/faction_unaligned.png);
@@ -168,4 +165,18 @@ section.rules {
 }
 .WHITE .cardArt {
     background: url(../img/cardback_red.png);
+}
+
+.LATINO  .faction_icon {
+    background-image: url(../img/faction_latino.png);
+}
+.LATINO .cardArt {
+    background: url(../img/cardback_orange.png);
+}
+
+.GUARD .faction_icon {
+    background-image: url(../img/faction_guard.png);
+}
+.GUARD .cardArt {
+    background: url(../img/cardback_blue.png);
 }
