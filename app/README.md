@@ -19,20 +19,22 @@
 - Go to the Yard
 
 # The game
-After a failed bank robbery, you have just been sent to the slammer. Now the only way to survive is to get up and out! Earn reputation to be the King of the Cell Block!
+After a failed bank robbery, you and your buddies have just been sent to the slammer. 
+The rumors are, there will be a prison riot soon, and everyone knows: fresh meat equals dead meat in a riot. 
+The only way to survive is to be important, so start working for it - be the boss by the time the riot starts! 
  
 # How to win
 The winner of the game is the inmate to first be the boss of the prison block.
-To be boss, you need a reputation! How high a reputation you need depends on how many inmates there are:
+To be boss, you need a reputation! The amoun of reputation needed depends on how many players there are:
 
-| Number of Inmates  | Repution needed | 
+| Number of players | Repution needed | 
 | ------------------ | ---------------- |
 | 2 | 50 | 
 | 3 | 45 | 
 | 4 | 40 | 
 | 5 | 35 | 
 
-You get a reputation by running errands for other inmates, ratting them out to the guards, beating them up and generally being total dirtbag.
+You get a reputation by running errands for other inmates, ratting them out to the guards, beating them up and generally being a total dirtbag.
 When a player has earned the required reputation to win, that player finishes his turn, then all other players get one more turn each. 
 
 Whoever has the highest reputation at the end of the game wins. 
