@@ -44,8 +44,6 @@ const CARDS = [
         ability: "Additional cost: <strong>Frame 1 white inmate.</strong><br/><br/>Draw a favour. Gain 1 Black popularity."
     },
 
-
-
     {type: "CONTRABAND", subType: "CIGGS", rarity: "COMMON", name: "Cigarette", value: 1},
     {type: "CONTRABAND", subType: "CIGGS", rarity: "COMMON", name: "Cigarette", value: 1},
     {type: "CONTRABAND", subType: "CIGGS", rarity: "COMMON", name: "Cigarette", value: 1},
@@ -56,6 +54,42 @@ const CARDS = [
     {type: "CONTRABAND", subType: "CIGGS", rarity: "UNCOMMON", name: "Full pack", value: 10},
     {type: "CONTRABAND", subType: "CIGGS", rarity: "RARE", name: "Joint", value: 20},
 
+    {
+        type: "CONTRABAND", subType: "PLAN", rarity: "COMMON", name: "Plan: Shank", value: 10,
+        ability: "Assemble <strong>Sharp Edge</strong> ,<strong>Wrapping</strong>:<br/> Put a <strong>Shank</strong> into your hand"
+    },
+    {
+        type: "CONTRABAND", subType: "WEAPON", rarity: "COMMON", name: "Shank", value: 20,
+        ability: "Add (5) to an one inmate's power until end of the current fight."
+    },
+    {
+        type: "CONTRABAND", subType: "MATERIAL", rarity: "COMMON", name: "Piece of Glass",
+        ability: " <strong>Sharp Edge</strong><br/><br/> Add (5) to one inmate's power until end of the current fight", value: 10
+    },
+    {
+        type: "CONTRABAND", subType: "MATERIAL", rarity: "COMMON", name: "Nylon Stocking",
+        ability: "<strong>Wrapping</strong>", value: 3
+    },{
+        type: "CONTRABAND", subType: "MATERIAL", rarity: "COMMON", name: "Gaffer Tape",
+        ability: "<strong>Wrapping</strong>", value: 3
+    },
+
+    {
+        type: "FAVOUR", subType: "MATERIAL", rarity: "COMMON", name: "Here, I found this!",
+        ability: "Take 1 contraband"
+    },
+    {
+        type: "FAVOUR", subType: "MATERIAL", rarity: "COMMON", name: "Got you something!",
+        ability: "Take 2 contraband"
+    },
+    {
+        type: "FAVOUR", subType: "MATERIAL", rarity: "RARE", name: "This is my friend...",
+        ability: "Take 1 favour"
+    },
+    {
+        type: "FAVOUR", subType: "MATERIAL", rarity: "COMMON", name: "Run!",
+        ability: "Draw 2 cards"
+    },
 ];
 
 
