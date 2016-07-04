@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prison game Cards</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+    <script src="js/cards.js"></script>
+</head>
+<body>
+
+<div class="card person BLACK">
+    <div class="cardArt">
+        <header class="name">
+            <div class="faction_icon"></div>
+            <h1>Buddy</h1>
+        </header>
+        <aside class="costs">
+            <div class="circle beat">9</div>
+            <div class="circle buy">8</div>
+            <div class="repGain">
+                <img src="img/rep_star.png" class="repStar"/><br/>
+                <img src="img/rep_star.png" class="repStar"/><br/>
+                <img src="img/rep_star.png" class="repStar"/><br/>
+                <img src="img/rep_star.png" class="repStar"/><br/>
+            </div>
+
+        </aside>
+        <section class="artWork">
+
+        </section>
+        <section class="rules">
+            <section class="loot">
+                1 Contraband
+            </section>
+            <section class="ability">
+                Fights for free fa
+                sdf<br/>
+                asd<br/>
+                df
+                asdf
+                asd
+                f
+            </section>
+        </section>
+
+    </div>
+</div>
+
+
+<script id="person-template" type="text/x-handlebars-template">
+    <div class="card person {{faction}}">
+        <div class="cardArt">
+            <header class="name">
+                <div class="faction_icon"></div>
+                <h1>{{name}}</h1>
+            </header>
+            <aside class="costs">
+                {{#if beat}}
+                <div class="circle beat">{{beat}}</div>
+                {{/if}}
+                {{#if buy}}
+                <div class="circle buy">{{buy}}</div>
+                {{/if}}
+                {{#if value}}
+                <div class="circle value">{{value}}</div>
+                {{/if}}
+                <div class="circle repGain">
+                    <img src="img/rep_star.png" class="repStar"/>2<br/>
+                </div>
+
+            </aside>
+            <section class="artWork">
+
+            </section>
+            <section class="rules">
+                {{#if loot}}
+                <section class="loot">
+                    {{{loot}}}
+                </section>
+                {{/if}}
+                {{#if ability}}
+                <section class="ability">
+                    {{{ability}}}
+                </section>
+                {{/if}}
+            </section>
+
+        </div>
+    </div>
+</script>
+
+<script src="js/renderAll.js"></script>
+</body>
+</html>

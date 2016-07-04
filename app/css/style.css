@@ -1,0 +1,171 @@
+BODY,HTML {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    float: left;
+    font-family: sans-serif;
+    font-size: 4mm;
+    width: 63mm;
+    height: 88mm;
+    background: black;
+    padding: 4mm;
+    border-radius: 2mm;
+    overflow: hidden;
+    position: relative;
+    margin: .5mm;
+
+}
+
+.cardArt {
+    background: url(../img/cardback_gray.png);
+    background-size: cover;
+    height: 100%;
+    padding: 3mm;
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* TOP */
+
+h1 {
+    /*width: 100%;*/
+    background: rgba(255,255,255,0.9);
+    font-size: 1em;
+    margin: 0;
+    border-radius: 1mm;
+    border: 1px solid black;
+    padding: .5mm 1mm;
+
+}
+
+header .faction_icon {
+    background-image: url(../img/faction_unaligned.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 6mm;
+    height: 6mm;
+    position: absolute;
+    right: -3mm;
+    top: -2mm;
+    margin-top: -1mm;
+    margin-left:1mm;
+    z-index: 1;
+
+    flex-grow: 0;
+}
+
+/* Side */
+aside.costs {
+    position: absolute;
+    left: -3mm;
+    top: 10mm;
+    font-size: 3.5mm;
+    font-weight: bold;
+    text-align: center;
+}
+.circle {
+    border-radius: 2.5mm;
+    width: 5mm;
+    height: 10mm;
+    margin-bottom: 1mm;
+    line-height: 5.5mm;
+    border: 1px solid black;
+
+}
+.beat {
+     background-color: #c51e00;
+ }
+
+.buy {
+    background-color: greenyellow;
+}
+.repGain {
+    background-color: white;
+}
+.value {
+    background-color: #ccf;
+}
+.repStar{
+    clear: both;
+    width: 4mm;
+}
+/* Art */
+section.artWork {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30mm;
+    background: rgba(255,255,255,0.2);
+    border-radius: 1mm;
+    border: 1px solid black;
+    margin-top: 1mm;
+}
+
+
+/* Rules */
+section.rules {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-grow: .8;
+
+    background: rgba(255,255,255,0.9);
+    font-size: .7em;
+    border-radius: 1mm;
+    border: 1px solid black;
+    padding: 2mm 1mm;
+    margin-top: 1mm;
+    flex-grow: 1;
+    flex-basis: content;
+}
+
+.rules > section {
+    margin-bottom: .3mm;
+}
+
+.rules .loot {
+    border-left: 2px solid red;
+    padding: .5mm;
+    background: rgba(250,0,0,0.1);
+}
+.rules .ability {
+    /*border-left: 2px solid green;*/
+    padding: .5mm;
+    /*background: rgba(0,250,0,0.1);*/
+}
+
+
+
+
+/* Factions */
+.UNALIGNED  .faction_icon {
+    background-image: url(../img/faction_unaligned.png);
+}
+.UNALIGNED .cardArt {
+    background: url(../img/cardback_gray.png);
+}
+
+.ASIAN .faction_icon {
+    background-image: url(../img/faction_asian.png);
+}
+.ASIAN .cardArt {
+    background: url(../img/cardback_yellow.png);
+}
+
+.BLACK  .faction_icon {
+    background-image: url(../img/faction_black.png);
+}
+.BLACK .cardArt {
+    background: url(../img/cardback_brown.png);
+}
+
+.WHITE  .faction_icon {
+    background-image: url(../img/faction_whitesup.png);
+}
+.WHITE .cardArt {
+    background: url(../img/cardback_red.png);
+}

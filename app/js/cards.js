@@ -4,38 +4,54 @@ const CARDS = [
         type: "PERSON",
         subType:"INMATE",
         name:"Buddy",
+        faction: "UNALIGNED",
 
-        pay: 0,
-        beat: 0,
-        force: 3,
-        loot: null,
-        ability: null
+        buy: 0,
+        beat: 2
     },{
         rarity: "COMMON",
         type: "PERSON",
         subType:"INMATE",
         name:"Nazi Wannabe",
-        faction: "White supremacists",
+        faction: "WHITE",
 
-        pay: 2,
+        buy: 2,
         beat: 3,
-        force: 3,
         loot: "1 Contraband",
-        ability: "-"
     },{
         rarity: "UNCOMMON",
         type: "PERSON",
         subType:"INMATE",
         name:"Old Nazi",
-        faction: "White supremacists",
+        faction: "WHITE",
 
-        pay: 8,
+        buy: 8,
         beat: 10,
-        force: 10,
         loot: "2 Contraband",
         ability: "Add any number of white supremacists to a fight where this inmate is fighting."
     },
+    {
+        rarity: "RARE",
+        type: "PERSON",
+        subType:"INMATE",
+        name:"Ken Lee",
+        faction: "ASIAN",
 
+        buy: 8,
+        beat: 8,
+        loot: "3 Contraband",
+        ability: "Add any number of asian inmates to a fight where this inmate is fighting."
+    },
+    {
+        rarity: "UNCOMMON",
+        type: "PERSON",
+        subType:"INMATE",
+        name:"Gang Banger",
+        faction: "BLACK",
+
+        buy: 6,
+        beat: 5,
+    },
     {
         rarity: "RARE",
         type: "CONTRABAND",
@@ -60,27 +76,27 @@ const CARDS = [
         subType:"PLAN",
         name:"Plan: Shank",
         value: 10,
-        effect: "Place a [Sharp Edge] and a [Wrapping] on this card: Destroy this card and all cards placed on it -> Put a [Shank] into your hand"
+        ability: "Assemble <strong>Sharp Edge</strong> ,<strong>Wrapping</strong>:<br/> Put a <strong>Shank</strong> into your hand"
     },{
         rarity: "UNCOMMON",
         type: "CONTRABAND",
         subType:"WEAPON",
         name:"Shank",
         value: 20,
-        effect: "Add (5) to an one inmate's power until end of the current fight."
+        ability: "Add (5) to an one inmate's power until end of the current fight."
     },{
         rarity: "UNCOMMON",
         type: "CONTRABAND",
         subType: "MATERIAL",
         name: "Piece of Glass",
-        effect:" [Sharp Edge] - Add (2) to one inmate's power until end of the current fight",
+        ability:" <strong>Sharp Edge</strong><br/><br/> Add (2) to one inmate's power until end of the current fight",
         value: 5
     },{
         rarity: "UNCOMMON",
         type: "CONTRABAND",
         subType: "MATERIAL",
         name: "Nylon Stocking",
-        effect:" [Wrapping]",
+        ability:"<strong>Wrapping</strong>",
         value: 3
     }
 
