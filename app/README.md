@@ -1,6 +1,6 @@
 # King of the Cell Block
 
-## Quick start
+# Quick start
 
 - Put 5 ciggs in each cell
 - Draw 5 people and place them in the yard
@@ -9,9 +9,12 @@
   - 4x "Cigg" contraband
   - 1x "Half a pack" contraband
 
-## Playing the game
 
-## How to win
+
+
+# Playing the game
+
+# How to win
 The winner of the game is the inmate to first be the boss of the prison block.
 To be boss, you need a reputation! How high a reputation you need depends on how many inmates there are:
 
@@ -25,16 +28,16 @@ To be boss, you need a reputation! How high a reputation you need depends on how
 You get a reputation by running errands for other inmates, ratting them out to the guards, beating them up and generally being total dirtbag.   
 
 
-## Setting up
+# Setting up
 
-### The cells
+## The cells
 Each player has a cell. This is where you keep your ciggs, your partially assembled weapons and your current errands. 
 The cell area also contains your deck and your spent piles.
 
-### The yard
+## The yard
 The yard is the main area of the table. The yard consists of 5 (always) people, pluss whoever is fighting, along with the weapons they are using. 
 
-## Your turn
+# Your turn
 During your turn, you may do any or all of the following as many times as you like:
 - Sell contraband
 - Play favours
@@ -45,16 +48,16 @@ During your turn, you may do any or all of the following as many times as you li
 When your turn is over, put all cards in your hand in your spent pile and draw 5 new cards. 
 If, at any point, you are asked to draw a card and your deck is empty, shuffle your current spent pile. This is now your deck. 
 
-### Selling contraband
+## Selling contraband
 All contraband cards have a value in ciggs.
 When you sell contraband you take its value in ciggs and place it in your cell. Then you place the contraband in your spent pile.
 
-### Play favours
+## Play favours
 If you have any favours, you may play them at any time (including other players' turns). 
 Follow the rule-text, then place the favour in your spent pile. 
 
 
-### Assemble items
+## Assemble items
 Some contraband have the _Plan_ type. These cards are plans for making powerful weapons and other items that will help you out greatly.
 When you play a plan card, place in in your cell. The items themselves have their own cards, placed in the _items_ pile. 
 
@@ -64,45 +67,84 @@ These cards are not removed at the end of your turn, so you can use several turn
 
 Once all ingredients have been placed on a plan, remove the plan and all the ingredients from the game, then take the item card and put it into your _hand_.
 
-### Running errands
+## Running errands
 Some favours (called "big favours") require an errand. The errand cards are special favour cards that work much in the 
 same way as the _plan_ cards. To play an errand, place it in your cell. Whenever you do one of the required tasks of an errands, 
 mark it as completed by putting a counter on the card, etc. 
 
 Once all tasks are completed, remove the errand card from the game, take the "big favour" card and put it into your hand.
 
-### Go to the yard
-In the yard is where you meet all the other denizens of the prison - the Inmates and the Guards
+## Go to the yard
+In the yard is where you meet all the other denizens of the prison - the Inmates and the Guards. 
+There should always be 5 people in the yard. Once one person is removed, replace it _immediately_ buy drawing a new person from the people pile.
  
-#### Inmates
-#### Guards 
+### Inmates
+An inmate can be handled in 2 ways: buying them or beating them. 
 
+#### Buying inmates
+If an inmate has a price, you can buy him. 
+
+To buy an inmate, pay his price in ciggs buy taking the required amount of ciggs from your cell. 
+Once the price is paid, take the inmate card and put it in your spent pile.
+
+Buying an inmate _does not_ trigger the _loot_ part of the inmate card.
+
+#### Beating inmates
+If you don't want an inmate as part of your crew, you may choose to beat him instead.
+
+Beating inmates is the main way of earning a reputation, along with popularity with the various factions of the prison.
+ 
+To beat an inmate (called "the target") you do the following:
+- Play an inmate from your hand by paying _half his buy cost rounded down_ in ciggs.
+- You and other players may play cards to affect the outcome of the fight.
+- Once all players are done playing cards, if your inmate's power is _greater_ than the target's power, the target is beaten. 
+  
+*If the target was beaten:*
+
+  - Increase your _reputation_ by the target's rank
+  - Increase your popularity with you inmate's rank by *1*
+  - Handle the _loot_ portion of the beaten inmate's card
+  - Put the beaten inmate card in the _beaten pile_
+
+*After the fight is over:*
+  
+- Decrease your popularity with the target's faction by *2*
+- Put all played cards in their owners' spent piles
+
+### Guards 
+Guards cannot be beating, so you will have to pay them off!
+
+All guards have different demands. To handle a guard, pay the cost stated on the card.
+Once a guard has been payed off, put him in your spent pile.
+
+Guards are played in the same way as favours.
+
+*Framing an inmate*
+Most guards require you to frame an inmate as part of the cost of handling the guard. 
+To frame an inmate, take an inmate card from your hand and put it in the _beaten pile_ (_Buddy_ cards are removed from the game instead).
+
+*Note:* _This is one of the few ways of removing unwanted inmates from your deck, use it wisely!_
 
 
 ----
 
-## People
+# People
 
 
-### Inmates
+## Inmates
 Most of the people you will meet in the yard are inmates. You can deal with inmates in two ways: Beat them or Buy them.
-#### Beating inmates
-
-#### Buying inmates
-
-#### Factions
 
 There are 5 factions on the cell block: The Blacks, The White Supremacists, The Latinos and The Asian. Most inmates belong    
 
-### Guards
+## Guards
 
-## Reputation
+# Reputation
 
-## Card types
+# Card types
 
-### Contraband
+## Contraband
 
-#### Materials
+### Materials
 
 
 
