@@ -50,10 +50,10 @@
 -->
 
 <script id="person-template" type="text/x-handlebars-template">
-    <div class="card person {{faction}}">
+    <div class="card {{type}} {{subType}} {{faction}}">
         <div class="cardArt">
             <header class="name">
-                <div class="faction_icon"></div>
+                <!--<div class="faction_icon"></div>-->
                 <h1>{{name}}</h1>
             </header>
             <aside class="costs">
@@ -74,12 +74,34 @@
 
             </aside>
             <section class="artWork">
-
+                {{#if subType}}
+                <div class="typeDescription"> {{faction}} {{subType}}</div>
+                {{/if}}
             </section>
             <section class="rules">
                 {{#if loot}}
                 <section class="loot">
                     {{{loot}}}
+                </section>
+                {{/if}}
+                {{#if additionalCost}}
+                <section class="additionalCost">
+                    {{{additionalCost}}}
+                </section>
+                {{/if}}
+                {{#if parts}}
+                <section class="parts">
+                    {{{parts}}}
+                </section>
+                {{/if}}
+                {{#if assemble}}
+                <section class="assemble">
+                    {{{assemble}}}
+                </section>
+                {{/if}}
+                {{#if materialType}}
+                <section class="materialType">
+                    {{{materialType}}}
                 </section>
                 {{/if}}
                 {{#if ability}}

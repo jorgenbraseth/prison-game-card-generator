@@ -63,7 +63,7 @@ header .faction_icon {
 aside.costs {
     position: absolute;
     left: -3mm;
-    top: 10mm;
+    top: 9mm;
     font-size: 3.5mm;
     font-weight: bold;
     text-align: center;
@@ -103,8 +103,27 @@ section.artWork {
     border-radius: 1mm;
     border: 1px solid black;
     margin-top: 1mm;
+    position: relative;
 }
 
+.typeDescription {
+    background: white;
+    font-size: .8em;
+    font-weight: bold;
+    display: inline-block;
+    padding: .3mm .8mm;
+    border: 1px solid black;
+    border-radius: .4em;
+    position: absolute;
+    left: 0mm;
+    bottom: -2.5mm;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    text-transform: lowercase;
+
+}
+.typeDescription:first-letter {
+    text-transform: capitalize;
+}
 
 /* Rules */
 section.rules {
@@ -125,17 +144,38 @@ section.rules {
 
 .rules > section {
     margin-bottom: .3mm;
+    background-size: 4mm;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: .8mm .5mm .8mm 5.5mm;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.rules > section:last-child {
+    border-bottom: none;
 }
 
 .rules .loot {
-    border-left: 2px solid red;
-    padding: .5mm;
-    background: rgba(250,0,0,0.1);
+    background-image: url(../img/skull.png);
+    background-color: rgba(250,0,0,0.1);
 }
 .rules .ability {
-    /*border-left: 2px solid green;*/
-    padding: .5mm;
-    /*background: rgba(0,250,0,0.1);*/
+    background-image: url(../img/action.png);
+    /*background-color: rgba(100,100,100,0.1);*/
+}
+.rules .additionalCost {
+    font-weight: bold;
+    background-image: url(../img/trade.png);
+    background-color: rgba(100,250,100,0.1);
+}
+.rules .assemble {
+    background-image: url(../img/tools.png);
+}
+.rules .parts {
+    background-image: url(../img/parts.png);
+    background-color: rgba(100,250,100,0.1);
+}
+.rules .materialType {
+    font-weight: bold;
 }
 
 /* Factions */
@@ -179,4 +219,15 @@ section.rules {
 }
 .GUARD .cardArt {
     background: url(../img/cardback_blue.png);
+}
+
+.CONTRABAND .cardArt {
+    background: url(../img/cardback_purple.png);
+}
+.CONTRABAND.PLAN .cardArt {
+    background: url(../img/cardback_white.png);
+}
+
+.FAVOUR .cardArt {
+    background: url(../img/cardback_pink.png);
 }
