@@ -1,12 +1,13 @@
 # King of the Cell Block
 
 ## Quick start
+
 - Put 5 ciggs in each cell
 - Draw 5 people and place them in the yard
 - Give each player a deck consisting of:
--- 5x "Buddy" inmate cards
--- 4x "Cigg" contraband
--- 1x "Half a pack" contraband
+  - 5x "Buddy" inmate cards
+  - 4x "Cigg" contraband
+  - 1x "Half a pack" contraband
 
 ## Playing the game
 
@@ -27,7 +28,7 @@ You get a reputation by running errands for other inmates, ratting them out to t
 ## Setting up
 
 ### The cells
-Each player has a cell. This is where you keep your ciggs and your partially assembled weapons. 
+Each player has a cell. This is where you keep your ciggs, your partially assembled weapons and your current errands. 
 The cell area also contains your deck and your spent piles.
 
 ### The yard
@@ -53,7 +54,6 @@ If you have any favours, you may play them at any time (including other players'
 Follow the rule-text, then place the favour in your spent pile. 
 
 
-
 ### Assemble items
 Some contraband have the _Plan_ type. These cards are plans for making powerful weapons and other items that will help you out greatly.
 When you play a plan card, place in in your cell. The items themselves have their own cards, placed in the _items_ pile. 
@@ -70,6 +70,14 @@ same way as the _plan_ cards. To play an errand, place it in your cell. Whenever
 mark it as completed by putting a counter on the card, etc. 
 
 Once all tasks are completed, remove the errand card from the game, take the "big favour" card and put it into your hand.
+
+### Go to the yard
+In the yard is where you meet all the other denizens of the prison - the Inmates and the Guards
+ 
+#### Inmates
+#### Guards 
+
+
 
 ----
 
