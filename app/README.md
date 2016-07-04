@@ -2,18 +2,25 @@
 
 # Quick start
 
+## Setup
 - Put 5 ciggs in each cell
 - Draw 5 people and place them in the yard
 - Give each player a deck consisting of:
   - 5x "Buddy" inmate cards
   - 4x "Cigg" contraband
   - 1x "Half a pack" contraband
+  
+## On your turn
+ 
+- Sell contraband
+- Play favours
+- Assemble items
+- Run errand
+- Go to the Yard
 
-
-
-
-# Playing the game
-
+# The game
+After a failed bank robbery, you have just been sent to the slammer. Now the only way to survive is to get up and out! Earn reputation to be the King of the Cell Block!
+ 
 # How to win
 The winner of the game is the inmate to first be the boss of the prison block.
 To be boss, you need a reputation! How high a reputation you need depends on how many inmates there are:
@@ -26,6 +33,10 @@ To be boss, you need a reputation! How high a reputation you need depends on how
 | 5 | 35 | 
 
 You get a reputation by running errands for other inmates, ratting them out to the guards, beating them up and generally being total dirtbag.   
+
+## The factions
+The jail has several factions and you have to play them against each other, or join them if you want to stand a chance.
+The factions are: The Blacks, The White Supremacists, The Latinos and The Asian. 
 
 
 # Setting up
@@ -128,23 +139,16 @@ To frame an inmate, take an inmate card from your hand and put it in the _beaten
 
 ----
 
-# People
+# Factions
+Faction power: +1 når faction er vinner i en kamp. -1 når faction er taper.
+Faction popularity: Pluss når man vinner en kamp som faction. Minus når man banker en av factiono.
 
+Faction power gir awards til de som har en pop-rank, eks:
 
-## Inmates
-Most of the people you will meet in the yard are inmates. You can deal with inmates in two ways: Beat them or Buy them.
-
-There are 5 factions on the cell block: The Blacks, The White Supremacists, The Latinos and The Asian. Most inmates belong    
-
-## Guards
-
-# Reputation
-
-# Card types
-
-## Contraband
-
-### Materials
-
+    - Popular players can buy inmates of given faction at half price
+    - Inmates of given faction have +X power where X is your popularity
+    - Hver faction har egen Max-power ability ?
+     
+ 
 
 
