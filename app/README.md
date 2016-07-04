@@ -25,14 +25,17 @@ After a failed bank robbery, you have just been sent to the slammer. Now the onl
 The winner of the game is the inmate to first be the boss of the prison block.
 To be boss, you need a reputation! How high a reputation you need depends on how many inmates there are:
 
-| Number of Inmates  | Repuation needed | 
+| Number of Inmates  | Repution needed | 
 | ------------------ | ---------------- |
 | 2 | 50 | 
 | 3 | 45 | 
 | 4 | 40 | 
 | 5 | 35 | 
 
-You get a reputation by running errands for other inmates, ratting them out to the guards, beating them up and generally being total dirtbag.   
+You get a reputation by running errands for other inmates, ratting them out to the guards, beating them up and generally being total dirtbag.
+When a player has earned the required reputation to win, that player finishes his turn, then all other players get one more turn each. 
+
+Whoever has the highest reputation at the end of the game wins. 
 
 ## The factions
 The jail has several factions and you have to play them against each other, or join them if you want to stand a chance.
@@ -57,7 +60,7 @@ During your turn, you may do any or all of the following as many times as you li
 - Go to the Yard
  
 When your turn is over, put all cards in your hand in your spent pile and draw 5 new cards. 
-If, at any point, you are asked to draw a card and your deck is empty, shuffle your current spent pile. This is now your deck. 
+If, at any point, you are asked to draw a card and your deck is empty, shuffle your current spent pile. This is now your deck.
 
 ## Selling contraband
 All contraband cards have a value in ciggs.
