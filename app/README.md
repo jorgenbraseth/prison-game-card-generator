@@ -15,7 +15,7 @@ The winner of the game is the inmate to first be the boss of the prison block.
 To be boss, you need a reputation! How high a reputation you need depends on how many inmates there are:
 
 | Number of Inmates  | Repuation needed | 
-|---------------------------------------|
+|--------------------|------------------|
 | 2 | 50 | 
 | 3 | 45 | 
 | 4 | 40 | 
