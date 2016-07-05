@@ -58,10 +58,7 @@ const CARDS = [
         additionalCost: "Frame 1 white inmate", ability: "Draw a favour. Gain 1 Black popularity."
     },
 
-    {type: "CONTRABAND", subType: "VALUABLE", rarity: "COMMON", name: "Cigarette", value: 1},
-    {type: "CONTRABAND", subType: "VALUABLE", rarity: "COMMON", name: "Cigarette", value: 1},
-    {type: "CONTRABAND", subType: "VALUABLE", rarity: "COMMON", name: "Cigarette", value: 1},
-    {type: "CONTRABAND", subType: "VALUABLE", rarity: "COMMON", name: "Cigarette", value: 1},
+    {type: "CONTRABAND", subType: "VALUABLE", rarity: "COMMON", count: 20, name: "Cigarette", value: 1},
 
     {type: "CONTRABAND", subType: "VALUABLE", rarity: "COMMON", name: "Half a pack", value: 5},
 

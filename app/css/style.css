@@ -3,6 +3,7 @@ BODY,HTML {
     padding: 0;
 }
 .card {
+    page-break-inside: avoid;
     float: left;
     font-family: sans-serif;
     font-size: 4mm;
@@ -10,6 +11,7 @@ BODY,HTML {
     height: 88mm;
     background: black;
     padding: 4mm;
+    box-sizing: border-box;
     border-radius: 2mm;
     overflow: hidden;
     position: relative;
@@ -19,7 +21,7 @@ BODY,HTML {
 
 .cardArt {
     background: url(../img/cardback_gray.png);
-    background-size: cover;
+    background-size: contain !important;
     height: 100%;
     padding: 3mm;
     box-sizing: border-box;
@@ -64,16 +66,16 @@ aside.costs {
     position: absolute;
     left: -3mm;
     top: 9mm;
-    font-size: 3.5mm;
     font-weight: bold;
     text-align: center;
+    line-height: 5mm;
+    font-size: 3mm;
 }
 .circle {
     border-radius: 2.5mm;
     width: 5mm;
     height: 5mm;
     margin-bottom: 1mm;
-    line-height: 5mm;
     border: 1px solid black;
 
 }
@@ -104,6 +106,7 @@ section.artWork {
     border: 1px solid black;
     margin-top: 1mm;
     position: relative;
+    background-size: cover;
 }
 
 .typeDescription {
@@ -115,7 +118,7 @@ section.artWork {
     border: 1px solid black;
     border-radius: .4em;
     position: absolute;
-    left: 0mm;
+    left: -1mm;
     bottom: -2.5mm;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     text-transform: lowercase;
@@ -146,7 +149,7 @@ section.rules {
     margin-bottom: .3mm;
     background-size: 4mm;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left .6mm;
     padding: .8mm .5mm .8mm 5.5mm;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
@@ -178,7 +181,7 @@ section.rules {
     font-weight: bold;
 }
 
-/* Factions */
+/* Type specifics */
 .UNALIGNED  .faction_icon {
     background-image: url(../img/faction_unaligned.png);
 }
@@ -222,10 +225,13 @@ section.rules {
 }
 
 .CONTRABAND .cardArt {
-    background: url(../img/cardback_purple.png);
+    background: url(../img/cardback_ciggs.png);
+}
+.CONTRABAND.MATERIAL .cardArt {
+    background: url(../img/cardback_material.png);
 }
 .CONTRABAND.PLAN .cardArt {
-    background: url(../img/cardback_white.png);
+    background: url(../img/cardback_plan.png);
 }
 
 .FAVOUR .cardArt {
