@@ -11,6 +11,9 @@
   - 1x "Half a pack" contraband
   
 ## On your turn
+- Search the yard
+
+OR
  
 - Sell contraband
 - Play favours
@@ -44,17 +47,40 @@ The jail has several factions and you have to play them against each other, or j
 The factions are: The Blacks, The White Supremacists, The Latinos and The Asian. 
 
 
-# Setting up
+# Game areas
 
 ## The cells
 Each player has a cell. This is where you keep your ciggs, your partially assembled weapons and your current errands. 
 The cell area also contains your deck and your spent piles.
 
 ## The yard
-The yard is the main area of the table. The yard consists of 5 (always) people, pluss whoever is fighting, along with the weapons they are using. 
+The yard is the main area of the table. The yard consists of 5 (always) people, pluss whoever is fighting, along with the weapons they are using.
+ 
+## Card piles
+
+### Deck & Spent piles
+Each player has a deck and a spent pile. Cards are drawn from the deck and used cards are put in the spent pile at the end of turn.
+
+When a deck runs out of cards (i.e. a player is asked to draw a crad, but there are no more cards in his deck), shuffle that players spent pile and use it as the new deck.
+
+### Contraband & Sold
+Contraband is drawn from the contraband pile. When sold, put the sold contraband in the sold pile.
+
+If the contraband pile ever runs out, shuffle the sold pile and use it as a new contraband pile.
+
+### Favours & Done
+Favours is drawn from the _favours pile_. When played, put the favour card in the _favours done pile_.
+
+If the _favours pile_ ever runs out, shuffle the _favours done pile_ and use it as a new _favours pile_.
+
 
 # Your turn
 During your turn, you may do any or all of the following as many times as you like:
+
+- Search the yard
+
+OR
+
 - Sell contraband
 - Play favours
 - Assemble items
@@ -64,13 +90,21 @@ During your turn, you may do any or all of the following as many times as you li
 When your turn is over, put all cards in your hand in your spent pile and draw 5 new cards. 
 If, at any point, you are asked to draw a card and your deck is empty, shuffle your current spent pile. This is now your deck.
 
+## Searching the yard
+If you choose to search the yard, this is your ONLY legal action this turn. 
+
+To search the yard:
+
+- put your hand in the spent pile
+- draw 2 contraband and put them in the spent pile.
+
 ## Selling contraband
-All contraband cards have a value in ciggs.
-When you sell contraband you take its value in ciggs and place it in your cell. Then you place the contraband in your spent pile.
+All contraband cards have a value in ciggs (even the cigarette cars - playing one of these represent you finding/being given cigarettes).
+When you sell contraband you take its value in ciggs and place it in your cell. Then the contraband in the _sold pile_.
 
 ## Play favours
 If you have any favours, you may play them at any time (including other players' turns). 
-Follow the rule-text, then place the favour in your spent pile. 
+Follow the rule-text, then place the favour in the _favours done pile_. 
 
 
 ## Assemble items
@@ -82,6 +116,14 @@ During your turn, you may take cards from your hand, matching the ingredients fo
 These cards are not removed at the end of your turn, so you can use several turns to assemble an item. 
 
 Once all ingredients have been placed on a plan, remove the plan and all the ingredients from the game, then take the item card and put it into your _hand_.
+
+### Weapons
+A lot of the assembled items are weapons. A weapon may be wielded by an inmate during a fight. 
+An inmate wielding a weapon is considered _armed_, while an inmate with no weapon is considered _unarmed_.
+
+To equip an inmate with a weapon, play the weapon and state which inmate is wielding it.  
+
+Equipping a weapon is free, but each inmate can only wield one weapon at a time unless otherwise stated on the cards.  
 
 ## Running errands
 Some favours (called "big favours") require an errand. The errand cards are special favour cards that work much in the 
@@ -112,7 +154,7 @@ Beating inmates is the main way of earning a reputation, along with popularity w
  
 To beat an inmate (called "the target") you do the following:
 - Play an inmate from your hand by paying an amount of ciggs equal to his _rank_.
-- You and other players may play cards to affect the outcome of the fight.
+- You and other players may play cards to affect the outcome of the fight. I.e. equip weapons, play favours, etc.
 - Once all players are done playing cards, if your inmate's power is _greater_ than the target's power, the target is beaten. 
   
 *If the target was beaten:*

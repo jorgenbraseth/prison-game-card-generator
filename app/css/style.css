@@ -15,7 +15,8 @@ BODY,HTML {
     border-radius: 2mm;
     overflow: hidden;
     position: relative;
-    margin: .5mm;
+    margin-right: 1px;
+    margin-bottom: 1px;
 
 }
 
@@ -74,23 +75,42 @@ aside.costs {
 .circle {
     border-radius: 2.5mm;
     width: 5mm;
-    height: 5mm;
     margin-bottom: 1mm;
-    border: 1px solid black;
+    border: 1px solid white;
+    box-shadow: 0 0 2px black;
+    padding-top: 3.5mm;
+    box-sizing: border-box;
+
+    background-size: 3mm;
+    background-position: center 1mm;
+    background-repeat: no-repeat;
 
 }
 .beat {
-     background-color: #c51e00;
+    background-color: #c51e00;
+    /*color: #c51e00;*/
+    border-color: #c51e00;
+
+    background-image: url(../img/knife.png);
  }
 
 .buy {
     background-color: greenyellow;
+    /*color: greenyellow;*/
+    border-color: greenyellow;
+    background-image: url(../img/cigarette.png);
 }
 .repGain {
-    background-color: white;
+    background-color: yellow;
+    /*color: yellow;*/
+    border-color: yellow;
+    background-image: url(../img/star.png);
 }
 .value {
-    background-color: #ccf;
+    background-color: greenyellow;
+    /*color: greenyellow;*/
+    border-color: greenyellow;
+    background-image: url(../img/cigarette.png);
 }
 .repStar{
     clear: both;
@@ -120,7 +140,7 @@ section.artWork {
     position: absolute;
     left: -1mm;
     bottom: -2.5mm;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
     text-transform: lowercase;
 
 }
@@ -161,8 +181,9 @@ section.rules {
     background-image: url(../img/skull.png);
     background-color: rgba(250,0,0,0.1);
 }
-.rules .ability {
-    background-image: url(../img/action.png);
+.rules .assemble, .rules .ability {
+    padding-left: .3mm;
+    /*background-image: url(../img/action.png);*/
     /*background-color: rgba(100,100,100,0.1);*/
 }
 .rules .additionalCost {
@@ -170,15 +191,42 @@ section.rules {
     background-image: url(../img/trade.png);
     background-color: rgba(100,250,100,0.1);
 }
-.rules .assemble {
-    background-image: url(../img/tools.png);
-}
 .rules .parts {
     background-image: url(../img/parts.png);
     background-color: rgba(100,250,100,0.1);
 }
 .rules .materialType {
+    padding-left: .3mm;
     font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    font-size: .5em;
+    color: #ccc;
+    position: absolute;
+    bottom: -3.5mm;
+    right: .3mm;
+}
+
+/* Icons */
+.icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -.2em;
+}
+
+.icon.power {
+    background-image: url(../img/knife.png);
+}
+
+.icon.cigg {
+    background-image: url(../img/cigarette.png);
 }
 
 /* Type specifics */
@@ -186,7 +234,7 @@ section.rules {
     background-image: url(../img/faction_unaligned.png);
 }
 .UNALIGNED .cardArt {
-    background: url(../img/cardback_gray.png);
+    background: url(../img/cardback_white.png);
 }
 
 .ASIAN .faction_icon {
@@ -232,6 +280,10 @@ section.rules {
 }
 .CONTRABAND.PLAN .cardArt {
     background: url(../img/cardback_plan.png);
+}
+
+.WEAPON .cardArt {
+    background: url(../img/cardback_green.png);
 }
 
 .FAVOUR .cardArt {
