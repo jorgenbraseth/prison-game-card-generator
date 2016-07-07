@@ -16,6 +16,15 @@ var generatedByRarity = CARDS.map((card) => {
         }
     }
 
+    var cardAttribs = [];
+    cardAttribs.push(card.type.toLowerCase());
+
+    if(card.subType){cardAttribs.push(card.subType.toLowerCase())}
+    // if(card.faction){cardAttribs.push(card.faction.toLowerCase())}
+
+
+    card.img = cardAttribs.join("_");
+
     return card;
     var cards = [];
     for (var i = 0; i < card.count; i++) {
