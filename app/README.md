@@ -28,7 +28,7 @@ The only way to survive is to be important, so start working for it - be the bos
  
 # How to win
 The winner of the game is the inmate to first be the boss of the prison block.
-To be boss, you need a reputation! The amoun of reputation needed depends on how many players there are:
+To be boss, you need a reputation! The amount of reputation needed depends on how many players there are:
 
 | Number of players | Repution needed | 
 | ------------------ | ---------------- |
