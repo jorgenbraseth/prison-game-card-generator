@@ -53,7 +53,7 @@ header .faction_icon {
     width: 6mm;
     height: 6mm;
     position: absolute;
-    right: -3mm;
+    left: -4mm;
     top: -2mm;
     margin-top: -1mm;
     margin-left:1mm;
@@ -243,42 +243,42 @@ footer {
 
 /* Type specifics */
 .UNALIGNED  .faction_icon {
-    background-image: url(../img/faction_unaligned.png);
+    background-image: url(../img/typeBadges/unaligned.png);
 }
 .UNALIGNED .cardArt {
     background: url(../img/cardback_white.png);
 }
 
 .ASIAN .faction_icon {
-    background-image: url(../img/faction_asian.png);
+    background-image: url(../img/typeBadges/asian.png);
 }
 .ASIAN .cardArt {
     background: url(../img/cardback_yellow.png);
 }
 
 .BLACK  .faction_icon {
-    background-image: url(../img/faction_black.png);
+    background-image: url(../img/typeBadges/black.png);
 }
 .BLACK .cardArt {
     background: url(../img/cardback_brown.png);
 }
 
 .WHITE  .faction_icon {
-    background-image: url(../img/faction_whitesup.png);
+    background-image: url(../img/typeBadges/white.png);
 }
 .WHITE .cardArt {
     background: url(../img/cardback_red.png);
 }
 
 .LATINO  .faction_icon {
-    background-image: url(../img/faction_latino.png);
+    background-image: url(../img/typeBadges/latino.png);
 }
 .LATINO .cardArt {
     background: url(../img/cardback_orange.png);
 }
 
 .GUARD .faction_icon {
-    background-image: url(../img/faction_guard.png);
+    background-image: url(../img/typeBadges/guard.png);
 }
 .GUARD .cardArt {
     background: url(../img/cardback_blue.png);

@@ -1,5 +1,5 @@
 const CARDS = [
-    {type: "INMATE", subType: "UNALIGNED", rarity: "COMMON", count: 10, faction: "UNALIGNED", name: "Buddy", rank: 1, beat: 3},
+    {type: "INMATE", subType: "UNALIGNED", rarity: "COMMON", count: 10, faction: "UNALIGNED", name: "Buddy", rank: 1, beat: 2},
 
     {type: "INMATE", subType: "UNALIGNED", rarity: "COMMON", faction: "UNALIGNED", name: "Fixer", rank: 5, beat: 5, buy: 15, loot:"2 contraband",
         ability:"<strong>Play this inmate as a favour.</strong><br/><br/>Pay 10 {cigg}: draw 5 contraband. Do this only once."
@@ -10,40 +10,40 @@ const CARDS = [
     {type: "INMATE", subType: "UNALIGNED", rarity: "COMMON", faction: "UNALIGNED", name: "Snitch", rank: 2, beat: 5, buy: 5, loot:"2 contraband",
         additionalCost:"You may frame 1 inmate instead of buying this inmate"},
 
-    {type: "INMATE", subType: "WHITE", rarity: "COMMON", name: "Redneck", faction: "WHITE", rank: 1, buy: 3, beat: 4, loot:"1 contraband"},
-    {type: "INMATE", subType: "WHITE", rarity: "COMMON", name: "Skinhead", faction: "WHITE", rank: 3, buy: 5, beat: 7, loot:"2 contraband"},
-    {type: "INMATE", subType: "WHITE", rarity: "COMMON", name: "Boot boy", faction: "WHITE", rank: 5, buy: 10, beat: 12, loot:"3 contraband, 1 favour"},
-    {type: "INMATE", subType: "WHITE", rarity: "UNCOMMON", name: "Old Nazi", faction: "WHITE", rank: 5, buy: 10, beat: 12, loot: "1 Favour, 1 contraband",
+    {type: "INMATE", subType: "WHITE", rarity: "COMMON", name: "Redneck", faction: "WHITE", rank: 1, buy: 4, beat: 3, loot:"1 contraband"},
+    {type: "INMATE", subType: "WHITE", rarity: "COMMON", name: "Skinhead", faction: "WHITE", rank: 3, buy: 5, beat: 4, loot:"2 contraband"},
+    {type: "INMATE", subType: "WHITE", rarity: "COMMON", name: "Boot boy", faction: "WHITE", rank: 5, buy: 9, beat: 8, loot:"3 contraband, 1 favour"},
+    {type: "INMATE", subType: "WHITE", rarity: "UNCOMMON", name: "Old Nazi", faction: "WHITE", rank: 5, buy: 14, beat: 12, loot: "1 Favour, 1 contraband",
         ability: "<strong>Leader 1</strong><br/>You may have 1 <strong>White</strong> inmate join a fight where this inmate is already fighting."
     },
     {type: "INMATE", subType: "WHITE", rarity: "RARE", name: "Siegfried Kankerhoor", faction: "WHITE", rank: 5, buy: 15, beat: 5, loot: "1 Favour, 1 contraband",
         ability: "When this inmate starts or joins a fight, show the top 5 cards of your deck. Add any White inmates to the fight for free. Put the rest of the cards in your spent pile."
     },
 
-    {type: "INMATE", subType: "BLACK", rarity: "COMMON", name: "Black 1", faction: "BLACK", rank: 1, buy: 3, beat: 4, loot:"1 contraband"},
-    {type: "INMATE", subType: "BLACK", rarity: "COMMON", name: "Black 2", faction: "BLACK", rank: 3, buy: 5, beat: 7, loot:"2 contraband"},
-    {type: "INMATE", subType: "BLACK", rarity: "COMMON", name: "Black 3", faction: "BLACK", rank: 5, buy: 10, beat: 12, loot:"3 contraband, 1 favour"},
-    {type: "INMATE", subType: "BLACK", rarity: "UNCOMMON", name: "Beret worthy", faction: "BLACK", rank: 5, buy: 10, beat: 12, loot: "1 Favour, 1 contraband",
+    {type: "INMATE", subType: "BLACK", rarity: "COMMON", name: "Black 1", faction: "BLACK", rank: 1, buy: 4, beat: 3, loot:"1 contraband"},
+    {type: "INMATE", subType: "BLACK", rarity: "COMMON", name: "Black 2", faction: "BLACK", rank: 3, buy: 5, beat: 4, loot:"2 contraband"},
+    {type: "INMATE", subType: "BLACK", rarity: "COMMON", name: "Black 3", faction: "BLACK", rank: 5, buy: 9, beat: 8, loot:"3 contraband, 1 favour"},
+    {type: "INMATE", subType: "BLACK", rarity: "UNCOMMON", name: "Beret worthy", faction: "BLACK", rank: 5, buy: 14, beat: 12, loot: "1 Favour, 1 contraband",
         ability: "<strong>Leader 1</strong><br/>You may have 1 <strong>Black</strong> inmate join a fight for free where this inmate is already fighting."
     },
     {type: "INMATE", subType: "BLACK", rarity: "RARE", name: "Doctor S", faction: "BLACK", rank: 5, buy: 15, beat: 10, loot: "1 Favour, 1 contraband",
-        ability: "This inmate has double {power} when fighting White supremacist inmates."
+        ability: "This inmate has double {power} when fighting White inmates."
     },
 
-    {type: "INMATE", subType: "ASIAN", rarity: "COMMON", name: "Asian 1", faction: "ASIAN", rank: 1, buy: 3, beat: 4, loot:"1 contraband"},
-    {type: "INMATE", subType: "ASIAN", rarity: "COMMON", name: "Asian 2", faction: "ASIAN", rank: 3, buy: 5, beat: 7, loot:"2 contraband"},
-    {type: "INMATE", subType: "ASIAN", rarity: "COMMON", name: "Asian 3", faction: "ASIAN", rank: 5, buy: 10, beat: 12, loot:"3 contraband, 1 favour"},
-    {type: "INMATE", subType: "ASIAN", rarity: "UNCOMMON", name: "Asian Leader", faction: "ASIAN", rank: 5, buy: 10, beat: 12, loot: "1 Favour, 1 contraband",
+    {type: "INMATE", subType: "ASIAN", rarity: "COMMON", name: "Asian 1", faction: "ASIAN", rank: 1, buy: 4, beat: 3, loot:"1 contraband"},
+    {type: "INMATE", subType: "ASIAN", rarity: "COMMON", name: "Asian 2", faction: "ASIAN", rank: 3, buy: 5, beat: 4, loot:"2 contraband"},
+    {type: "INMATE", subType: "ASIAN", rarity: "COMMON", name: "Asian 3", faction: "ASIAN", rank: 5, buy: 9, beat: 8, loot:"3 contraband, 1 favour"},
+    {type: "INMATE", subType: "ASIAN", rarity: "UNCOMMON", name: "Asian Leader", faction: "ASIAN", rank: 5, buy: 14, beat: 12, loot: "1 Favour, 1 contraband",
         ability: "<strong>Leader 1</strong><br/>You may have 1 <strong>Asian</strong> inmate join a fight for free where this inmate is already fighting."
     },
     {type: "INMATE", subType: "ASIAN", rarity: "RARE", name: "Ken Lee", faction: "ASIAN", rank: 5, buy: 15, beat: 10, loot: "1 Favour, 1 contraband",
         ability: "When this inmate joins a fight, draw 2 cards."
     },
 
-    {type: "INMATE", subType: "LATINO", rarity: "COMMON", name: "Latino 1", faction: "LATINO", rank: 1, buy: 3, beat: 4, loot:"1 contraband"},
-    {type: "INMATE", subType: "LATINO", rarity: "COMMON", name: "Latino 2", faction: "LATINO", rank: 3, buy: 5, beat: 7, loot:"2 contraband"},
-    {type: "INMATE", subType: "LATINO", rarity: "COMMON", name: "Latino 3", faction: "LATINO", rank: 5, buy: 10, beat: 12, loot:"3 contraband, 1 favour"},
-    {type: "INMATE", subType: "LATINO", rarity: "UNCOMMON", name: "Latino Leader", faction: "LATINO", rank: 5, buy: 10, beat: 12, loot: "1 Favour, 1 contraband",
+    {type: "INMATE", subType: "LATINO", rarity: "COMMON", name: "Latino 1", faction: "LATINO", rank: 1, buy: 4, beat: 3, loot:"1 contraband"},
+    {type: "INMATE", subType: "LATINO", rarity: "COMMON", name: "Latino 2", faction: "LATINO", rank: 3, buy: 5, beat: 4, loot:"2 contraband"},
+    {type: "INMATE", subType: "LATINO", rarity: "COMMON", name: "Latino 3", faction: "LATINO", rank: 5, buy: 9, beat: 8, loot:"3 contraband, 1 favour"},
+    {type: "INMATE", subType: "LATINO", rarity: "UNCOMMON", name: "Latino Leader", faction: "LATINO", rank: 5, buy: 14, beat: 12, loot: "1 Favour, 1 contraband",
         ability: "<strong>Leader 1</strong><br/>You may have 1 <strong>Latino</strong> inmate join a fight for free where this inmate is already fighting."
     },
     {type: "INMATE", subType: "LATINO", rarity: "RARE", name: "Latino Special", faction: "LATINO", rank: 5, buy: 15, beat: 10, loot: "1 Favour, 1 contraband",
